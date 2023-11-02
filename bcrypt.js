@@ -29,4 +29,3 @@ const login = async (psw) => {
 }
 
 login("$2b$10$Lne2Xso7ZLWlIHpGaThL4u0htIrGg9smUsJJXVFa.n44RXCwLT7mK");
-let hola = "es una nueva constante en el archivo bcrypt"
