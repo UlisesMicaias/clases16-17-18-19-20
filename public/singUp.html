@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear una cuenta</title>
+</head>
+<body>
+    <h1>Bienevenido :)</h1>
+    <p>Si aún no tienes una cuenta, puedes crearla aquí</p>
+    <form   action="https://formsubmit.co/ulisesmicaias@gmail.com"
+    method="POST">
+        <div>
+            <label for="userName">Username:</label>
+            <input id="userName" name="userName" placeholder="User name" type="text">
+            
+            <label for="pass">Password:</label>
+            <input id="pass" name="password" placeholder="password" type="password">
+        </div>
+        <br>
+        <div>
+            <label for="email">email:</label>
+            <input id="email" name="email" placeholder="email" type="email" >
+            
+            <label for="age">Age:</label>
+            <input id="age" name="age" placeholder="age" type="number">
+        </div>
+        <br>
+        <button type="submit">Create user</button>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="singUp.js"></script>
+</body>
+</html>
